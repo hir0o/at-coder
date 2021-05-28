@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/hir0o/acc",
   "author": "hir0o <mk.9.q.kyu@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "acc": "^2.0.0"
+  }
 }

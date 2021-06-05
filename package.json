@@ -7,5 +7,9 @@
   "license": "MIT",
   "dependencies": {
     "acc": "^2.0.0"
+  },
+  "scripts": {
+    "new": "acc new",
+    "test": "oj t -c \"node ./main.js\" -d ./tests",
   }
 }

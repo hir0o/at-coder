@@ -6,20 +6,18 @@
 		const strs = r.s().split("");
 		let count = 0;
 		for (let i = 0; i <= 9999; i++) {
-			const zeroNum = `0000${i}`.slice(-4);
-			let oFlag = true
+			const num = `0000${i}`.slice(-4);
+			let oFlag = true;
 			let xFlag = true;
 			strs.map((s, j) => {
-				if(s === "o" && !zeroNum.includes(String(j))) {
+				if(s === "o" && !num.includes(String(j))) {
 					oFlag = false
 				}
-				if(s === "x" && zeroNum.includes(String(j))) {
+				if(s === "x" && num.includes(String(j))) {
 					xFlag = false
 				}
 			})
-			if(xFlag && oFlag) {
-				count++
-			};
+			if(xFlag && oFlag) count++
 		}
 
 

@@ -39,11 +39,7 @@
       "id": "abc201_d",
       "label": "D",
       "title": "Game in Momotetsu World",
-      "url": "https://atcoder.jp/contests/abc201/tasks/abc201_d",
-      "directory": {
-        "path": "d",
-        "testdir": "tests"
-      }
+      "url": "https://atcoder.jp/contests/abc201/tasks/abc201_d"
     },
     {
       "id": "abc201_e",

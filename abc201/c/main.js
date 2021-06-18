@@ -9,7 +9,7 @@
 			const num = `0000${i}`.slice(-4);
 			let oFlag = true;
 			let xFlag = true;
-			strs.map((s, j) => {
+			strs.forEach((s, j) => {
 				if(s === "o" && !num.includes(String(j))) {
 					oFlag = false
 				}

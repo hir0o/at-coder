@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/shibuyahiroyuki/.anyenv/envs/nodenv/versions/14.5.0/bin/node /Users/shibuyahiroyuki/.anyenv/envs/nodenv/versions/14.5.0/bin/yarn global dir --json
+
+PATH: 
+  /Users/shibuyahiroyuki/.anyenv/envs/nodenv/versions/14.5.0/bin:/Users/shibuyahiroyuki/.anyenv/envs/nodenv/libexec:/Users/shibuyahiroyuki/.anyenv/envs/nodenv/plugins/nodenv-vars/bin:/Users/shibuyahiroyuki/.anyenv/envs/nodenv/plugins/nodenv-default-packages/bin:/Users/shibuyahiroyuki/.anyenv/envs/nodenv/plugins/node-build/bin:/Users/shibuyahiroyuki/.anyenv/envs/nodenv/shims:/Users/shibuyahiroyuki/.anyenv/envs/nodenv/bin:/Users/shibuyahiroyuki/git-fuzzy/bin:/Users/shibuyahiroyuki/google-cloud-sdk/bin:/Users/shibuyahiroyuki/.pyenv/bin:/Users/shibuyahiroyuki/.pyenv/shims:/Users/shibuyahiroyuki/.yarn/bin:/Users/shibuyahiroyuki/.config/yarn/global/node_modules/.bin:/Users/shibuyahiroyuki/.nodebrew/current/bin:/Users/shibuyahiroyuki/.rbenv/bin:/Users/shibuyahiroyuki/.rbenv/shims:/usr/local/bin:/Users/shibuyahiroyuki/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/opt/X11/bin:/Users/shibuyahiroyuki/.fig/bin:/Users/shibuyahiroyuki/.fzf/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/shibuyahiroyuki/ghq/github.com/hir0o/acc/package.json: Unexpected token } in JSON at position 312
+      at JSON.parse (<anonymous>)
+      at /Users/shibuyahiroyuki/.anyenv/envs/nodenv/versions/14.5.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/shibuyahiroyuki/.anyenv/envs/nodenv/versions/14.5.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/shibuyahiroyuki/.anyenv/envs/nodenv/versions/14.5.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "acc",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/hir0o/acc",
+    "author": "hir0o <mk.9.q.kyu@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "acc": "^2.0.0"
+    },
+    "scripts": {
+      "new": "acc new",
+      "test": "oj t -c \"node ./main.js\" -d ./tests",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

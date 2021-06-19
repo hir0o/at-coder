@@ -3,24 +3,24 @@
   const main = (input) => {
     const r = _io(input);
 
-		const n = r.n();
-		const nums = r.ns()
-		const count = {}
-		const choice = (num) => (num * (num - 1))/2
+    const n = r.n();
+    const nums = r.ns()
+    const count = {}
+    const choice = (num) => (num * (num - 1))/2
 
 
-		nums.forEach(num => {
-			count[num] = (count[num] || 0) + 1;
-		});
+    nums.forEach(num => {
+      count[num] = (count[num] || 0) + 1;
+    });
 
-		let ans = choice(n);
-		Object.values(count).forEach(val => {
-			if(val > 1) {
-				ans -= choice(val);
-			}
-		})
+    let ans = choice(n);
+    Object.values(count).forEach(val => {
+      if(val > 1) {
+        ans -= choice(val);
+      }
+    })
 
-		return ans
+    return ans
   };
 
   const _io = (str) => {

@@ -2,17 +2,17 @@
 {
   const main = (input) => {
     const r = _io(input);
-		const n = r.n()
+    const n = r.n()
 
-		const price = Math.floor(n * 1.08);
+    const price = Math.floor(n * 1.08);
 
-		if(price < 206) {
-			return "Yay!"
-		} else if(price === 206) {
-			return "so-so"
-		} else {
-			return ":("
-		}
+    if(price < 206) {
+      return "Yay!"
+    } else if(price === 206) {
+      return "so-so"
+    } else {
+      return ":("
+    }
   };
 
   const _io = (str) => {

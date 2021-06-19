@@ -2,15 +2,15 @@
 {
   const main = (input) => {
     const r = _io(input);
-		const n = r.n()
-		let i = 0
-		let count = 0
+    const n = r.n()
+    let i = 0
+    let count = 0
 
-		do {
-			i ++
-			count += i
-		} while (count < n);
-		return i
+    do {
+      i ++
+      count += i
+    } while (count < n);
+    return i
   };
 
   const _io = (str) => {

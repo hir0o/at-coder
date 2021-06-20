@@ -13,7 +13,7 @@
     "typescript": "3.7.5"
   },
   "scripts": {
-    "new": "acc new --template ts",
+    "new": "acc new --contest-dirname-format 'src/{ContestID}'",
     "test": "./test.sh",
     "submit": "acc submit"
   }

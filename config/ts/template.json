@@ -1,0 +1,12 @@
+{
+  "task": {
+    "program": ["main.ts"],
+    "submit": "main.ts",
+    "testdir": "tests",
+    "cmd": "echo Hi!"
+  },
+  "contest": {
+    "static": [["gitignore", ".gitignore"]],
+    "cmd": "echo Ho!"
+  }
+}

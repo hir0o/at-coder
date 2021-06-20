@@ -3,7 +3,7 @@
     "program": ["main.ts"],
     "submit": "main.ts",
     "testdir": "tests",
-    "cmd": "echo Hi!"
+    "cmd": "echo $CONTEST_DIR"
   },
   "contest": {
     "static": [["gitignore", ".gitignore"]],

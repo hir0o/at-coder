@@ -21,4 +21,3 @@
 
   if (typeof _res === "number" || typeof _res === "string") console.log(_res);
 }
-

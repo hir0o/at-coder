@@ -5,11 +5,15 @@
   "repository": "https://github.com/hir0o/acc",
   "author": "hir0o <mk.9.q.kyu@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "acc": "^2.0.0"
+  "devDependencies": {
+    "@types/node": "^13.5.3",
+    "atcoder-cli": "^2.0.4",
+    "eslint": "^6.8.0",
+    "ts-node": "^8.6.2",
+    "typescript": "3.7.5"
   },
   "scripts": {
-    "new": "acc new",
-    "test": "oj t -c \"node ./main.js\" -d ./tests"
+    "new": "acc new --template ts",
+    "test": "./test.sh"
   }
 }

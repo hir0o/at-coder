@@ -4,6 +4,7 @@
     const r = _io();
     const n = r.n();
     const NS = r.lines.map((line: string) => line.split(" ").map(Number));
+
     const objs = [];
     let count = 0;
 
@@ -17,23 +18,28 @@
           break;
         case 2:
           start = NS[i][1];
-          end = NS[i][2] - 0.1;
+          end = NS[i][2] - 0.5;
           break;
         case 3:
-          start = NS[i][1] + 0.1;
+          start = NS[i][1] + 0.5;
           end = NS[i][2];
           break;
         case 4:
-          start = NS[i][1] + 0.1;
-          end = NS[i][2] - 0.1;
+          start = NS[i][1] + 0.5;
+          end = NS[i][2] - 0.5;
           break;
       }
       objs.push({ start, end });
     }
 
+    const { max, min } = Math;
+
     for (let i = 0; i < n; i++) {
       for (let j = i + 1; j < n; j++) {
-        if (objs[i].start <= objs[j].end && objs[i].end >= objs[j].start) {
+        // if (objs[i].start <= objs[j].end && objs[i].end >= objs[j].start) {
+        if (
+          max(objs[i].start, objs[j].start) <= min(objs[i].end, objs[j].end)
+        ) {
           count++;
         }
       }

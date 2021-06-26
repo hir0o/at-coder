@@ -2,9 +2,10 @@
 {
   const main = (): number | string | void => {
     const r = _io();
-    const nums = r.ns().sort((a, b) => b - a);
+    // const nums = r.ns().sort((a, b) => b - a);
+    const [A, B, C] = r.ns()
 
-    return nums[0] + nums[1];
+    return A + B + C - Math.min(A, B, C);
   };
 
   const _io = () => {

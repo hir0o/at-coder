@@ -5,17 +5,17 @@
     const [A, B, C, D] = r.ns();
     if (B >= C * D) return -1;
 
-    let blueCount = A;
-    let redCount = 0;
-    let count = 0;
+    // let blueCount = A;
+    // let redCount = 0;
+    // let count = 0;
 
-    while (blueCount > redCount * D) {
-      blueCount += B;
-      redCount += C;
-      count++;
-    }
+    // while (blueCount > redCount * D) {
+    //   blueCount += B;
+    //   redCount += C;
+    //   count++;
+    // }
 
-    return count;
+    return Math.ceil(A / (C * D - B));
   };
 
   const _io = () => {

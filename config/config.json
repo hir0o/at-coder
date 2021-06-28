@@ -1,6 +1,6 @@
 {
 	"oj-path": "/usr/local/bin/oj",
-	"default-contest-dirname-format": "{ContestID}",
+	"default-contest-dirname-format": "src/{ContestID}",
 	"default-task-dirname-format": "{tasklabel}",
 	"default-test-dirname-format": "tests",
 	"default-task-choice": "inquire",

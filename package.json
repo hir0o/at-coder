@@ -14,7 +14,10 @@
   },
   "scripts": {
     "new": "acc new --contest-dirname-format 'src/{ContestID}'",
-    "test": "./test.sh",
+    "test": "sh ./test.sh",
     "submit": "acc submit"
+  },
+  "dependencies": {
+    "acc": "^2.0.0"
   }
 }

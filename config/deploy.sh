@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/zsh
+
 ACCDIR=`acc config-dir`
 DIR=`pwd`
 

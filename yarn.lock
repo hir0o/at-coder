@@ -45,6 +45,11 @@ abab@^2.0.0:
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
   integrity sha512-9IK9EadsbHo6jLWIpxpR6pL0sazTXV6+SQv25ZB+F7Bj9mJNaOc4nCRabwd5M/JwmUa8idz6Eci6eKfJryPs6Q==
 
+acc@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/acc/-/acc-2.0.0.tgz#d6debf4bef6c286fca2353f75481b89f1ca0d912"
+  integrity sha1-1t6/S+9sKG/KI1P3VIG4nxyg2RI=
+
 acorn-globals@^4.3.2:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/acorn-globals/-/acorn-globals-4.3.4.tgz#9fa1926addc11c97308c4e66d7add0d40c3272e7"

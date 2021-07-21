@@ -2,8 +2,9 @@
 {
   const main = (): number | string | void => {
     const r = _io();
+    const [A, B] = r.n();
 
-    return 0;
+    return B >= A && B <= A * 6 ? "Yes" : "No";
   };
 
   const _io = () => {
